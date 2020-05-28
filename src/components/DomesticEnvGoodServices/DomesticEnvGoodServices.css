@@ -1,0 +1,35 @@
+.DomesticEnvGoodServices_Container {
+ height:100%;
+ width:100%;
+ transition: 0.3s;
+}
+
+.DomesticEnvGoodServices_Container .title {
+  height:20%;
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.DomesticEnvGoodServices_Container .title h1 {
+  font-size: 1.5em;
+  text-align: center;
+  margin:0;
+}
+
+.DomesticEnvGoodServices_Container .disclaimer {
+  height:20%;
+  width:100%;
+}
+
+.chart {
+  height:60%;
+  width:100%;
+  background: #F5F5F5;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.chart:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
